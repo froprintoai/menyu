@@ -1,0 +1,67 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-testamplifyapp-test-225926-authRole",
+      "UnauthRoleArn": "arn:aws:iam::522741343441:role/amplify-testamplifyapp-test-225926-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::522741343441:role/amplify-testamplifyapp-test-225926-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-testamplifyapp-test-225926-deployment",
+      "UnauthRoleName": "amplify-testamplifyapp-test-225926-unauthRole",
+      "StackName": "amplify-testamplifyapp-test-225926",
+      "StackId": "arn:aws:cloudformation:us-east-2:522741343441:stack/amplify-testamplifyapp-test-225926/20b29a70-2ca3-11ec-b44e-0a274eafd8b8",
+      "AmplifyAppId": "d3tx9n28wcozha"
+    }
+  },
+  "api": {
+    "myapi": {
+      "service": "AppSync",
+      "providerPlugin": "awscloudformation",
+      "output": {
+        "authConfig": {
+          "defaultAuthentication": {
+            "authenticationType": "API_KEY",
+            "apiKeyConfig": {
+              "apiKeyExpirationDays": 7,
+              "description": "demo"
+            }
+          },
+          "additionalAuthenticationProviders": []
+        }
+      }
+    }
+  },
+  "auth": {
+    "testamplifyapp9cd8aa57": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false,
+      "frontendAuthConfig": {
+        "loginMechanisms": [
+          "PREFERRED_USERNAME"
+        ],
+        "signupAttributes": [
+          "EMAIL"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyMinLength": 8,
+          "passwordPolicyCharacters": []
+        },
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ],
+        "verificationMechanisms": [
+          "EMAIL"
+        ]
+      }
+    }
+  },
+  "hosting": {
+    "amplifyhosting": {
+      "service": "amplifyhosting",
+      "providerPlugin": "awscloudformation",
+      "type": "manual"
+    }
+  }
+}

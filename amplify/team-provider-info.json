@@ -1,50 +1,50 @@
 {
-    "dev": {
-        "awscloudformation": {
-            "AuthRoleName": "amplify-testamplifyapp-dev-190741-authRole",
-            "UnauthRoleArn": "arn:aws:iam::522741343441:role/amplify-testamplifyapp-dev-190741-unauthRole",
-            "AuthRoleArn": "arn:aws:iam::522741343441:role/amplify-testamplifyapp-dev-190741-authRole",
-            "Region": "us-east-2",
-            "DeploymentBucketName": "amplify-testamplifyapp-dev-190741-deployment",
-            "UnauthRoleName": "amplify-testamplifyapp-dev-190741-unauthRole",
-            "StackName": "amplify-testamplifyapp-dev-190741",
-            "StackId": "arn:aws:cloudformation:us-east-2:522741343441:stack/amplify-testamplifyapp-dev-190741/6cc1f190-2af0-11ec-a462-0a247d879db6",
-            "AmplifyAppId": "d3tx9n28wcozha"
-        },
-        "categories": {
-            "auth": {
-                "testamplifyapp9cd8aa57": {}
-            },
-            "hosting": {
-                "amplifyhosting": {
-                    "appId": "d3tx9n28wcozha",
-                    "type": "manual"
-                }
-            }
-        }
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-testamplifyapp-dev-190741-authRole",
+      "UnauthRoleArn": "arn:aws:iam::522741343441:role/amplify-testamplifyapp-dev-190741-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::522741343441:role/amplify-testamplifyapp-dev-190741-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-testamplifyapp-dev-190741-deployment",
+      "UnauthRoleName": "amplify-testamplifyapp-dev-190741-unauthRole",
+      "StackName": "amplify-testamplifyapp-dev-190741",
+      "StackId": "arn:aws:cloudformation:us-east-2:522741343441:stack/amplify-testamplifyapp-dev-190741/6cc1f190-2af0-11ec-a462-0a247d879db6",
+      "AmplifyAppId": "d3tx9n28wcozha"
     },
-    "test": {
-        "awscloudformation": {
-            "AuthRoleName": "amplify-testamplifyapp-test-225926-authRole",
-            "UnauthRoleArn": "arn:aws:iam::522741343441:role/amplify-testamplifyapp-test-225926-unauthRole",
-            "AuthRoleArn": "arn:aws:iam::522741343441:role/amplify-testamplifyapp-test-225926-authRole",
-            "Region": "us-east-2",
-            "DeploymentBucketName": "amplify-testamplifyapp-test-225926-deployment",
-            "UnauthRoleName": "amplify-testamplifyapp-test-225926-unauthRole",
-            "StackName": "amplify-testamplifyapp-test-225926",
-            "StackId": "arn:aws:cloudformation:us-east-2:522741343441:stack/amplify-testamplifyapp-test-225926/20b29a70-2ca3-11ec-b44e-0a274eafd8b8",
-            "AmplifyAppId": "d3tx9n28wcozha"
-        },
-        "categories": {
-            "auth": {
-                "testamplifyapp9cd8aa57": {}
-            },
-            "hosting": {
-                "amplifyhosting": {
-                    "appId": "d3tx9n28wcozha",
-                    "type": "manual"
-                }
-            }
+    "categories": {
+      "auth": {
+        "testamplifyapp9cd8aa57": {}
+      },
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d3tx9n28wcozha",
+          "type": "manual"
         }
+      }
     }
+  },
+  "test": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-testamplifyapp-test-225926-authRole",
+      "UnauthRoleArn": "arn:aws:iam::522741343441:role/amplify-testamplifyapp-test-225926-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::522741343441:role/amplify-testamplifyapp-test-225926-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-testamplifyapp-test-225926-deployment",
+      "UnauthRoleName": "amplify-testamplifyapp-test-225926-unauthRole",
+      "StackName": "amplify-testamplifyapp-test-225926",
+      "StackId": "arn:aws:cloudformation:us-east-2:522741343441:stack/amplify-testamplifyapp-test-225926/20b29a70-2ca3-11ec-b44e-0a274eafd8b8",
+      "AmplifyAppId": "d3tx9n28wcozha"
+    },
+    "categories": {
+      "auth": {
+        "testamplifyapp9cd8aa57": {}
+      },
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d3tx9n28wcozha",
+          "type": "manual"
+        }
+      }
+    }
+  }
 }
